@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio | Razzanul </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="progress" id="progress"></div>
+
+  <div class="suits-bg" id="suitsBg" aria-hidden="true"></div>
+
+  <header class="navbar">
+    <a href="#tentang" class="logo">Janul<span>Folio</span></a>
+    <nav>
+      <a href="#tentang" class="nav-link active">Tentang Saya</a>
+      <a href="#hobi" class="nav-link">Hobi Saya</a>
+    </nav>
+  </header>
+
+  <div class="section-head reveal">
+      <h2><br>Tentang Saya</br></h2>
+    </div>
+
+  <section class="intro" id="tentang">
+    <div class="card profile-card tilt reveal">
+      <div class="card-top">
+        <span class="cost">A</span>
+        <span class="rarity">SUPER SUPER LEGENDARY</span>
+      </div>
+      <h1>Janul</h1>
+      <p class="role"><span id="typing"></span><span class="cursor">|</span></p>
+
+      <div class="stat-row">
+        <div><b data-count="21">0</b><small>LEVEL</small></div>
+        <div><b data-count="90">0</b><small>HP</small></div>
+        <div><b data-count="85">0</b><small>ATK</small></div>
+      </div>
+
+      <ul class="data-list">
+        <li><span>Nama Lengkap</span><b>Razzanul Fikri</b></li>
+        <li><span>NIM</span><b>M0405251007</b></li>
+        <li><span>Program Studi - Angkatan</span><b>Kecerdasan Buatan - 62</b></li>
+        <li><span>Voyager</span><b>Pearl</b></li>
+        <li><span>Tempat, Tanggal Lahir</span><b>Depok, 08 Februari 2006</b></li>
+        <li><span>Alamat</span><b>Jl. Bojongsari Baru RT001/RW001 No. 27</b></li>
+      </ul>
+      <br><span style="position: flex; font-style:  italic;">
+          Harapan saya selama menjadi mahasiswa Kecerdasan Buatan, saya ingin mengembangkan potensi saya dan berharap apa yang saya pelajari
+          dapat bermanfaat bagi saya maupun orang lain.
+        </span></br>
+      <div class="card-foot">♛</div>
+    </div>
+
+    <div class="card photo-card tilt reveal">
+      <div class="card-top">
+        <span class="cost">♠</span>
+        <span class="rarity">PLAYER 1</span>
+      </div>
+      <div class="photo-frame">
+        <img src="foto.jpg" alt="Foto Nama Kamu"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="photo-placeholder"><img src="janul.png" alt="Foto" style="width: 100%; height: 100%; object-fit: cover;"></div>
+      </div>
+    </div>
+
+    <a href="#hobi" class="scroll-hint" aria-label="Ke bagian hobi">Lihat Hobi Saya<span>⌄</span></a>
+  </section>
+
+  <section class="hobby" id="hobi">
+    <div class="section-head reveal">
+      <h2>Hobi Saya</h2>
+      <p>Klik kartu untuk membaliknya.</p>
+    </div>
+
+    <div class="hobby-grid">
+      <div class="flip-card reveal" tabindex="0" role="button" aria-label="Kartu hobi bermain game">
+        <div class="flip-inner">
+          <div class="face front legendary">
+            <div class="card-top"><span class="cost">10</span><span class="rarity">★ LEGENDARY</span></div>
+            <div class="icon">🎮</div>
+            <h3>Bermain Game</h3>
+          </div>
+          <div class="face back">
+            <h3>Bermain Game</h3>
+            <p>Biar gak stress, walau malah membuat stress.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card reveal" tabindex="0" role="button" aria-label="Kartu hobi musik">
+        <div class="flip-inner">
+          <div class="face front rare">
+            <div class="card-top"><span class="cost">6</span><span class="rarity">RARE</span></div>
+            <div class="icon">🎧</div>
+            <h3>Mendengar Musik</h3>
+          </div>
+          <div class="face back">
+            <h3>Mendengar Musik</h3>
+            <p>Wong Kalahan Listener.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card reveal" tabindex="0" role="button" aria-label="Kartu hobi olahraga">
+        <div class="flip-inner">
+          <div class="face front common">
+            <div class="card-top"><span class="cost">4</span><span class="rarity">COMMON</span></div>
+            <div class="icon">🚲</div>
+            <h3>Bersepeda</h3>
+          </div>
+          <div class="face back">
+            <h3>Bersepeda</h3>
+            <p>Biar sehat, tipis-tipis aja biasanya.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">♠ ♥ ♣ ♦ &nbsp; Razzanul Fikri &nbsp; ♦ ♣ ♥ ♠</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
